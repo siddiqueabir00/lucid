@@ -1,0 +1,591 @@
+*{
+	margin: 0
+	padding: 0;
+}
+/*font-family: 'Source Sans Pro', sans-serif;*/
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a,a:hover{
+	text-decoration: none;
+}
+/*********************
+header section css
+**********************/
+header{
+	background-image: url(../img/lucid-banner.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.nav-link{
+	color: white !important;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+
+}
+.nav-link:hover{
+	color: #008ed6 !important;
+	background: url(../img/line.png) center bottom no-repeat;
+	font-weight: 900;
+
+}
+.nav-item{
+	margin-left: 16px;
+}
+
+.navbar{
+	padding: 16px 0;
+}
+
+.banner-text h6{
+	color: #008ed6;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+.row-banner{
+	padding-top: 50px;
+    padding-left: 20px;
+}
+.banner-text h1{
+	color: #ffffff;
+	font-size: 48px;
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.banner-text p{
+	color: #999999;
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.banner-btn .btn-2{
+	padding: 12px 30px;
+    border: 1px solid #fff;
+    background: #008ed6;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.banner-btn .btn-2:hover{
+	background: transparent;
+	color: #008ed6;
+	border: 1px solid #4e4d52;
+	transition: 2s;
+}
+.banner-btn .btn-1{
+	padding: 12px 30px;
+	margin-left: 20px;
+    border: 1px solid #4e4d52;
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.banner-btn .btn-1:hover{
+	background:	#008ed6;
+	color:	#ffffff ;
+	border:	1px solid #fff;
+	transition:	2s;
+	
+}
+.img-fluid{
+	padding-bottom: 100px;
+}
+
+
+    /**********************
+        features section css
+    *********************/
+.features{
+	    padding-top: 80px 0px 0px 0px;
+	    padding-bottom: 80px 0px 0px 0px;
+	        border-bottom: 1px solid #f2f2f2;
+}
+.features-up{
+	text-align: center;
+	margin-top: 80px;
+	
+}
+.features-up h5{
+	color: #008ed6;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.features-up h1{
+	color: #1a1a1a;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.features-up img{}
+.features{
+	text-align: center;
+}
+.features i{
+	width:60px; 
+	height: 60px;
+	/*background: red;*/
+	line-height: 60px;
+	font-size: 30px;
+	color: #008ed6;
+	border-radius: 50%;
+	border: 1px solid #e1e1e1;
+	margin-bottom: 20px;
+
+}
+.col-md-3 h3{
+	font-size: 24px;
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #1a1a1a;
+
+
+}
+.col-md-3 p{
+	font-size: 18px;
+	font-weight: 400;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #999999;
+	margin-bottom: 40px;
+}
+
+
+/**********************
+      features-2 section css
+**************************/
+.features-2{
+	margin-top: 60px;
+}
+.features-2 h5{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.features-2 h2{
+	color: #1a1a1a;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 36px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.features-2 p{
+	color: #999999;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin: 20px 0px 30px 0px; 
+}
+.features-2 ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.features-2 ul li{
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+.features-2 ul li i{
+	color:#008ed6;
+	margin-right: 16px;
+}
+
+/**************************
+  features-3 section css code
+***************************/
+.features-3{
+	margin-top: 60px;
+	background: #f2f2f2;
+	padding-top: 80px;
+	padding-left: 60px;
+
+}
+
+.features-3 h5{
+	color: #008ed6;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.features-3 h2{
+	color: #1a1a1a;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 36px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.features-3 p{
+	color: #999999;
+	font-weight: 400;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/************************
+     black banner section 
+**************************/
+.black-banner{
+	background: #000000;
+	padding-top: 30px;
+}
+.text-left{
+	margin-left: 31px;
+}
+.text-left span {
+	color: #ffffff;
+	font-weight:600; 
+	font-size: 36px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+.text-left p{
+	color: #ffffff;
+	font-weight:200; 
+	font-size: 36px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.banner-button .btn-1{
+	padding: 12px 30px;
+	border: 1px solid #ffffff;
+	background: transparent;
+	color: #fff;
+	border-radius: 5px; 
+	text-transform: uppercase;
+
+}
+.banner-button .btn-1:hover{
+	color: #fff;
+	background: #008ed6;
+	transition: 2s;
+}
+.banner-button .btn-2{
+	color: white;
+    background: #008ed6;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-left: 20px;
+
+}
+.banner-button .btn-2:hover{
+	color: #008ed6;
+	background: transparent;
+	transition: 2s;
+}
+
+/**************************
+testimonial section css 
+**************************/
+.testimonial .row .col-md-6{
+	padding: 75px 0px;
+}
+.testimonial{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../img/testimonial.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+ }
+.testimonial .col-md-12 {
+	text-align: center;
+}
+.testimonial h5{
+	color: #008ed6;
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+
+
+}
+.testimonial h1{
+	color: #ffffff;
+	font-size: 36px;
+	font-weight: 600;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+.testimonial img{}
+
+.comments h4{
+	color: #ffffff;
+	font-size: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	margin-bottom: 16px;
+}
+.comments .col-md-10 span{
+	color: #ffff;
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 200;
+}
+.comments .col-md-10 p{
+	color: #ffffff;
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+}
+.comments .col-md-10{
+	text-align: left;
+	padding-left: 0px;
+}
+.comments .col-md-2{
+	padding-right: 0px;
+}
+
+/**************************
+ plan section css 
+**************************/
+.plan {
+	width: 100%;
+	padding: 80px 0px 0px 0px;
+	text-align: center;
+}
+.plan h5{
+	color: #008ed6;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.plan h1{
+	color: #1a1a1a;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600;
+	font-size: 36px;
+	padding-bottom: 10px;
+	
+}
+
+/**************************
+pricing   section css 
+**************************/
+
+.pricing{
+	width: 100%;
+	padding: 10px 0px;
+	padding-bottom: 50px;
+}
+
+.pricing-table{
+	text-align: center;
+    border: 1px solid #d2d2d2;
+}
+.table-head{
+	padding: 16px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.table-head h2{
+	margin: 0px;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.table-body{
+	padding: 16px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.table-body h1{
+	font-size: 68px;
+    font-weight: 700;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.table-body p{
+	margin: 0px;
+    font-size: 18px;
+    color: #808080;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.table-body h1::before{
+	content: "$";
+    font-size: 30px;
+    font-weight: 600;
+    left: 78px;
+    top: 10px;
+    position: absolute;
+}
+.table-footer{
+	padding: 16px;
+}
+
+.table-footer p{
+    margin: 20px;
+    color: #808080;
+}
+.table-footer span{
+	color: #008ed6;
+	font-weight: 600;
+}
+.table-footer button{
+	padding: 10px 25px;
+    margin: 10px 0px;
+    border: 1px solid #d2d2d2;
+    background: transparent;
+    color: #008ed6;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pricing-table:hover .table-head h2{
+	color: #008ed6;
+}
+
+.pricing-table:hover .table-body{
+	background: #008ed6;
+}
+
+.pricing-table:hover .table-body h1, .pricing-table:hover .table-body p{
+	color: white;
+}
+
+.pricing-table:hover .table-footer button{
+	background: #008ed6;
+	color: white;
+}
+
+/**************************
+contact us  section css 
+**************************/
+
+.contact-us{
+	width: 100%;
+	padding: 80px 0px 0px 0px;
+	background: #ededed;
+}
+.contact-top{
+	text-align: center;
+}
+.contact-top p{
+	color: #008ed6;
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	font-weight:  700;
+
+}
+.contact-top h1{
+	color: black;
+	font-size: 36px;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-transform: uppercase;
+	font-weight:  600;
+}
+.us-top{
+	text-align: center;
+}
+.us-top i{
+	font-size: 30px;
+	color: #008ed6;
+	margin-top:	70px; 
+}
+.us-top p{
+	color: #999999;
+	font-size: 18px;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+.contact-form{
+	width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    background: #15141a;
+    padding: 63px;
+}
+.form-control{
+	color: white !important;
+    background: transparent !important;
+    margin-bottom: 15px !important;
+}
+.right-form{
+	text-align: right;
+}
+.right-form textarea{
+	padding-bottom: 86px;
+}
+.right-form input{
+	padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: #008ed6;
+}
+.map{
+	margin-top: -90px;
+}
+.google-map{
+	z-index: 4;
+}
+
+
+/**************************
+footer  section css 
+**************************/
+.footer{
+	background: #15141a;
+}
+.footer-icon{
+	text-align: center;
+	
+}
+.footer-icon ul{
+	list-style: none;
+}
+.footer-icon ul li{
+	display: inline-block;
+	letter-spacing: 20px;
+	margin-top: 20px;
+
+}
+.footer-icon ul li i{
+	color: #444348;
+}
+.footer-icon ul li i:hover{
+	transition: 1s;
+	transform: rotate(400deg);
+}
+ .fa-facebook:hover{
+	color:#1877f2!important;
+}
+.fa-twitter:hover{
+	color: #1da1f2!important;
+}
+.fa-dribbble:hover{
+	color:#ea4c89!important;
+}
+.fa-linkedin:hover{
+	color: #0a66c2!important;
+}
+.fa-behance:hover{
+	color:#053eff!important;
+}
+.footer-text{
+	text-align: center;
+	color: #444348;
+	font-size: 14px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 600px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
